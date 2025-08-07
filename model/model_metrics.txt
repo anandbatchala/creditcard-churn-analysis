@@ -1,0 +1,25 @@
+Model Evaluation Metrics
+========================
+Best Parameters: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+
+Accuracy: 0.6985
+Precision: 0.6737
+Recall: 0.6882
+Confusion Matrix:
+[[75 31]
+ [29 64]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.71       106
+           1       0.67      0.69      0.68        93
+
+    accuracy                           0.70       199
+   macro avg       0.70      0.70      0.70       199
+weighted avg       0.70      0.70      0.70       199
+
+Top 3 Features by Importance:
+EstimatedSalary       0.154015
+TenureProductRatio    0.143846
+IsActiveMember        0.142656
